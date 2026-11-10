@@ -1,0 +1,21 @@
+# Dependencias de entrega.ipynb (probado con Python 3.12)
+# Instalar con: pip install -r requirements.txt
+
+# Análisis de datos
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.9.1
+statsmodels==0.15.0
+
+# Visualización y reportes
+matplotlib==3.10.0
+sweetviz==2.3.3
+
+# Descarga del dataset
+wget==3.2
+
+# Ejecución del notebook
+# (no incluir "jupyter": instala ipywidgets, y con ipywidgets la barra de progreso
+#  de Sweetviz se vuelve un widget que traba la ejecución en VS Code)
+ipykernel==7.3.0
