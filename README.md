@@ -14,7 +14,7 @@ Todo el análisis (limpieza, análisis exploratorio y validación de hipótesis)
 
 ## Requisitos previos
 
-- **Python 3.12** (es la versión con la que se probó; versiones anteriores a 3.11 no son compatibles con las librerías fijadas).
+- **Python 3.12 o 3.14** (son las versiones con las que se probó; versiones anteriores a 3.11 no son compatibles con las librerías fijadas).
 - **pip** (viene incluido con Python).
 - **Git**, para clonar el repositorio.
 
@@ -107,5 +107,5 @@ Además de las tablas y gráficos que se muestran dentro del notebook, la ejecuc
 |---|---|
 | `ModuleNotFoundError: No module named '...'` | El notebook se está ejecutando con un kernel distinto al del entorno virtual. Seleccionar el kernel de `venv` (ver Opción B) o verificar que el entorno esté activado antes de correr `jupyter notebook`. |
 | `FileNotFoundError: global_food.csv` | Descargar el dataset a mano (ver sección [Dataset](#dataset)) y ubicarlo junto al notebook. |
-| Error al instalar las dependencias | Verificar que la versión de Python sea 3.12 y actualizar pip con `pip install --upgrade pip`. |
+| Error al instalar las dependencias | Verificar que la versión de Python sea 3.12 o 3.14 y actualizar pip con `pip install --upgrade pip`. |
 | La celda de Sweetviz no abre el navegador | Es normal: el reporte se guarda igual como `SWEETVIZ_REPORT.html` en la carpeta del proyecto. |
